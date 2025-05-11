@@ -1,3 +1,6 @@
+// The first way uses a branch on the fill_side variable and the second method
+// avoids that branching by assuming that the fill_side variable can only have
+// BUY/SELL values and can be cast to integers to be indexed into an array.
 
 #include <cstdio>
 #include <cstdint>

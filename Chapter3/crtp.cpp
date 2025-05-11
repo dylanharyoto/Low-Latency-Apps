@@ -1,3 +1,7 @@
+// A simple example of converting runtime polymorphism into compile-time
+// polymorphism is shown here. In both cases, the derived classes,
+// SpecificRuntimeExample and SpecificCRTPExample, override the placeOrder()
+// method.
 
 #include <cstdio>
 class RuntimeExample

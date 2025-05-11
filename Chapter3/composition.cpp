@@ -1,5 +1,10 @@
+// The benefit (if used properly) of the inheritance model is that it now
+// inherits all the methods that std::vector provides while the composition
+// model would need to implement them. In this example, we demonstrate this by
+// implementing a size() method in CompositionOrderBook, which calls the size()
+// method on the std::vector object, while InheritanceOrderBook inherits it
+// directly from std::vector include <cstdio>
 
-#include <cstdio>
 #include <vector>
 struct Order
 {

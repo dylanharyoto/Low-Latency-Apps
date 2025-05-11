@@ -1,3 +1,8 @@
+// We will see an example that orders the same members inside a structure in
+// three different ways – one where there is a lot of additional padding added
+// to keep each variable aligned, another where the developer reorders the
+// member variables to minimize space waste due to compiler-added padding, and,
+// finally, where we use the pack() pragma to eliminate all padding. 
 
 #include <cstdio>
 #include <cstdint>
